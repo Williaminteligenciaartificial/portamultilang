@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>William Suarez | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">William<span>Suarez</span></div>
+
+  <nav>
+    <a href="#home">Inicio</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+
+  <button id="lang-btn" class="lang-btn">🇪🇸 ES</button>
+</header>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="hero">
+  <h1 data-i18n="name">William Suarez</h1>
+  <p data-i18n="role">Desarrollador Web Full Stack</p>
+</section>
+
+<!-- ================= SOBRE MÍ ================= -->
+<section class="sobre-mi">
+  <h2 data-i18n="about_title">Sobre mí</h2>
+
+  <div class="sobre-mi-contenido">
+    <img src="./assets/tonypresidio.jpg" alt="Foto de William Suarez" class="foto-sobre-mi">
+    <p data-i18n="about_text"></p>
+  </div>
+</section>
+
+<!-- ================= HABILIDADES ================= -->
+<section id="skills" class="habilidades">
+  <h2 data-i18n="skills_title">Habilidades</h2>
+
+  <div class="skills-grid">
+    <div class="skill"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+    <div class="skill"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+    <div class="skill"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+    <div class="skill"><i class="devicon-react-original colored"></i><span>React</span></div>
+    <div class="skill"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+    <div class="skill"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+  </div>
+</section>
+
+<!-- ================= SOFT SKILLS ================= -->
+<section class="soft-skills">
+  <h2 data-i18n="soft_skills_title">Habilidades Blandas</h2>
+
+  <div class="soft-skills-grid">
+    <div class="soft-skill">🗣️ Comunicación</div>
+    <div class="soft-skill">🤝 Trabajo en equipo</div>
+    <div class="soft-skill">🧠 Resolución de problemas</div>
+    <div class="soft-skill">⚡ Adaptabilidad</div>
+    <div class="soft-skill">📚 Aprendizaje continuo</div>
+    <div class="soft-skill">⏱️ Responsabilidad</div>
+  </div>
+</section>
+
+<!-- ================= PROYECTOS ================= -->
+<section id="projects" class="projects">
+  <h2 data-i18n="projects_title">Proyectos</h2>
+
+  <div class="projects-grid">
+
+    <article class="card">
+      <img src="./assets/rick.png" alt="Rick and Morty App">
+      <h3>Rick and Morty App</h3>
+      <p data-i18n="project1"></p>
+
+      <div class="project-buttons">
+        <a href="https://github.com/Williaminteligenciaartificial/raskipan.git" target="_blank" class="btn github">
+          Código
+        </a>
+        <a href="https://deft-kheer-98a8b1.netlify.app/" target="_blank" class="btn demo">
+          Ver Demo
+        </a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="./assets/AppClima.png" alt="App de Frases">
+      <h3>App de Frases</h3>
+      <p data-i18n="project1"></p>
+
+      <div class="project-buttons">
+        <a href="https://github.com/Williaminteligenciaartificial/pokeapi.git" target="_blank" class="btn github">
+          Código
+        </a>
+        <a href="https://visionary-stardust-1e3269.netlify.app/" target="_blank" class="btn demo">
+          Ver Demo
+        </a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section id="contact" class="contacto">
+  <h2 data-i18n="contact_title">Contacto</h2>
+
+  <div class="contact-info">
+    <p>📞 +57 324 606 89 89</p>
+    <p>✉️ wsgwilliam2557@gmail.com</p>
+    <p>📍 Sevilla, Valle – Colombia</p>
+  </div>
+
+  <form action="https://formsubmit.co/wsgwilliam2557@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Nombre" required>
+    <input type="email" name="email" placeholder="Correo" required>
+    <textarea name="message" placeholder="Mensaje" required></textarea>
+
+    <input type="hidden" name="_captcha" value="false">
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
