@@ -7,7 +7,7 @@ const t={
   about_title:"Sobre mí",
   about_text:"Soy desarrollador web Full Stack",
   projects_title:"Proyectos",
-  project1:"Plataforma para servicios de mudanzas.",
+  project1:"Plataforma que consume los personajes de la serie rick and morty.",
   contact_title:"Contacto",
   send:"Enviar",
   name_ph:"Nombre",
@@ -21,7 +21,9 @@ const t={
   soft_communication: "Comunicación",
   soft_teamwork: "Trabajo en equipo",
   soft_problem: "Resolución de problemas",
-  soft_adaptability: "Adaptabilidad"
+  soft_adaptability: "Adaptabilidad",
+  proproject_clima: "Weather application that consumes an external API and displays information according to the city searched."
+  
   
 
  },
@@ -31,7 +33,7 @@ const t={
   about_title:"About Me",
   about_text:"I am a Full Stack Web Developer specialized in JavaScript, React and Node.js.",
   projects_title:"Projects",
-  project1:"Platform for moving services.",
+  project1:"Platform that consumes the characters from the Rick and Morty series",
   contact_title:"Contact",
   send:"Send",
   name_ph:"Name",
@@ -45,7 +47,8 @@ const t={
   soft_communication: "Communication",
   soft_teamwork: "Teamwork",
   soft_problem: "Problem Solving",
-  soft_adaptability: "Adaptability"
+  soft_adaptability: "Adaptability",
+  project_clima: "Weather application that consumes an external API and displays information according to the city searched."
   
 
  }
